@@ -6,7 +6,7 @@ import Youtube from "react-youtube";
 const Row = ({ title, fetchUrl, isLargerRow }) => {
     const [movie, setMovie] = useState([]);
     const [trailerUrl, setTrailerUrl] = useState(" ")
-    const base_url = "https://image.tmdb.org/t/p/original";
+                                                          
     useEffect(() => {
         (async () => {
             try {
